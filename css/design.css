@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+.logo {
+  background-image: url("../images/logo-front.jpg");
+  height: 100vh;
+}
+
+.titulo {
+  color: #fff;
+  margin-top: 250px;
+  font-family: 'Satisfy', cursive;
+  font-size: 80px;
+  animation-duration: 3s;
+}
+
+.frase {
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  animation-duration: 5s;
+}
+
+/* NAV */
+
+.menu-size {
+  background: #111035;
+  padding: 16px;
+}
+
+.menu a {
+  color: #fff;
+  padding: 16px;
+  text-decoration: none;
+  margin-right: 75px;
+  margin-left: 75px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  transition: background-color 1s ease;
+}
+
+.menu a:hover {
+  background: #3e468d;
+}
+
+/* ARTICULOS */
+
+.article p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  color: #111035;
+  margin-bottom: 7px;
+  text-align: justify;
+  transition: font-size 1s ease;
+}
+
+.article p:hover {
+  font-size: 25px
+}
+
+.article h2 {
+  font-family: 'Satisfy', cursive;
+  color: #111035;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
